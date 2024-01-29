@@ -1,0 +1,142 @@
+body{
+    background: linear-gradient(#036d80 , #024a57 , #01242a);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(203, 201, 201);
+     /* Evita que la imagen se repita */    
+}
+
+main { 
+    background: linear-gradient(#16b094 , #066251 , #011d11);
+    width: 95vw;
+    margin: auto;
+    padding: 2em;
+    border-radius: 5%;
+    background-image: url('../fondodeblog.jfif'); /* Especifica la ruta de la imagen */
+    background-size: cover; /* Cubre todo el tamaño del body */
+    background-position: center; /* Centra la imagen en el body */
+    background-repeat: no-repeat;
+    margin-top: 2em;
+}
+
+
+#encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em 1em 1em;
+}
+
+#bienvenida { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txtbienvenida {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente los elementos hijos */
+        align-items: center; /* Centra verticalmente los elementos hijos */
+        width: 90vw; /* El div ocupa el 50% del ancho de su contenedor */
+        height: auto; /* El 50% de la altura de la ventana del navegador */
+        margin: auto; /* Centra el div horizontalmente */
+        margin-top: 1.5em;
+        background: linear-gradient(#088590 , #053135);
+        border: transparent;
+        padding: 2em 1em 2em 1em;
+    }
+
+h1 {
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.sldinicial {
+    font-size: 15px;
+}
+
+.articulo {
+    font-size: 12px;
+}
+
+
+
+
+    #imagen-personal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5em;
+        }
+    
+        .primeraimagen {
+            width: 250px;
+            height: auto;
+            border: 2px solid white;
+            border-radius: 50%;
+        }
+    
+    #primera-fila {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1.5em;
+    }
+
+.tarjeta {
+    width: 400px;
+    height: 165px;
+    margin: 1em;
+    border: transparent;
+    border-radius: 5%;
+    gap: 0.8em;
+    display: flex;
+    padding: 2em 1em 2em 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0a7680 , #025259 , #031d20);
+}
+
+
+#segunda-fila {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    }
+
+#textoagradecimiento {
+    display: flex;
+    background: linear-gradient(#05545b , #031d20);
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    width: 90vw; /* El div ocupa el 50% del ancho de su contenedor */
+    height: auto; /* El 50% de la altura de la ventana del navegador */
+    margin: auto; /* Centra el div horizontalmente */    
+    margin-top: 1.5em;
+}
+
+.saludo {
+    padding: 1.5em;
+    font-size: 15px;
+}
+
+#footer { 
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
